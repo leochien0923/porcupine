@@ -14,10 +14,6 @@ Porcupine is:
 - scalable. It can detect multiple always-listening voice commands with no added runtime footprint.
 - self-service. Developers can train custom wake word models using [Picovoice Console](https://console.picovoice.ai/).
 
-## Requirements
-
-- .NET 6.0
-
 ## Compatibility
 
 Platforms compatible with .NET Standard 2.0+:
