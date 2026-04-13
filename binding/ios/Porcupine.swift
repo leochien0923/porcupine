@@ -12,6 +12,7 @@ import Foundation
 import PvPorcupine
 
 /// Low-level iOS binding for Porcupine wake word engine. Provides a Swift interface to the Porcupine library.
+@available(iOS 16.0, *)
 public class Porcupine {
 
 #if SWIFT_PACKAGE

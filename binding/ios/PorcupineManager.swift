@@ -13,6 +13,7 @@ import ios_voice_processor
 
 /// High-level iOS binding for Porcupine wake word engine. It handles recording audio from microphone,
 /// processes it in real-time using Porcupine, and notifies when any of the given keywords are detected.
+@available(iOS 16.0, *)
 public class PorcupineManager {
     private var porcupine: Porcupine?
 
